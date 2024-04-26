@@ -1,0 +1,22 @@
+# general purpose
+python-dotenv
+
+# data
+pandas
+numpy
+
+# data viz
+seaborn
+matplotlib
+
+# google hooks
+google-api-python-client 
+google-auth-httplib2 
+google-auth-oauthlib
+
+# skill libraries
+openskill
+trueskill
+trueskillthroughtime
+glicko2
+git+https://github.com/ktalattinis/ratingslib
