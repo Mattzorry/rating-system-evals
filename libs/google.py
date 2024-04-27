@@ -39,7 +39,7 @@ def credentials_wrapper(SCOPES):
 
 def pull_sheet_data():
     # grab credentials
-    creds = credentials_wrapper(os.getenv('SCOPES'))
+    creds = credentials_wrapper(['https://www.googleapis.com/auth/spreadsheets.readonly'])
     try:
         service = build('sheets', 'v4', credentials=creds)
         # call the google sheets API
