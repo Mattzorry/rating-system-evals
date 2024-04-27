@@ -19,4 +19,5 @@ openskill
 trueskill
 trueskillthroughtime
 glicko2
+whole-history-rating
 git+https://github.com/ktalattinis/ratingslib
